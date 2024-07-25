@@ -76,6 +76,10 @@
   cursor: pointer;
 }
 
+.footer-section .hh:hover {
+  color: #ccc;
+}
+
 .footer-links {
   display: flex;
   justify-content: space-between;
@@ -104,9 +108,20 @@
   font-size: 14px;
 }
 
+.footer-column .cpm a:hover,
+.footer-column .pro a:hover,
+.footer-column .gc a:hover,
+.footer-column .t a:hover {
+  color: #ccc;
+}
+
 .footer-column .st {
   font-size: 14px;
   color: #999;
+}
+
+.footer-column .st:hover {
+  color: #ccc;
 }
 
 .footer-social {
@@ -124,6 +139,10 @@
   text-decoration: none;
 }
 
+.footer-social a:hover {
+  color: #ccc;
+}
+
 .footer-location {
   display: flex;
   align-items: center;
@@ -135,6 +154,15 @@
   align-items: center;
   margin-left: 10px;
   font-size: 14px;
+}
+
+.footer-location span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-location span a:hover {
+  color: #ccc;
 }
 
 .footer-apps {
@@ -150,6 +178,11 @@
   text-decoration: none;
   font-size: 14px;
 }
+
+.footer-apps a:hover {
+  color: #ccc;
+}
+
 
 .footer-bottom {
   display: flex;
@@ -168,6 +201,10 @@
   margin-right: 15px;
   text-decoration: none;
   font-size: 14px;
+}
+
+.footer-bottom div a:hover {
+  color: #ccc;
 }
 
 .app-container {
@@ -189,7 +226,7 @@
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
-  cursor: pointer; /* Add this line */
+  cursor: pointer; 
 }
 
 .qr-box:hover {
@@ -199,7 +236,7 @@
 .qr-box img {
   width: 150px;
   height: 150px;
-  cursor: pointer; /* Add this line */
+  cursor: pointer; 
 }
 
 .text-container {
@@ -231,5 +268,5 @@
   font-size: 18px;
   color: black;
   margin-left: 10px;
-  cursor: pointer; /* Add this line */
+  cursor: pointer; 
 }

@@ -17,90 +17,100 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h2 className="u">Uber</h2>
-          <p className="hh">Visit Help Center</p>
+          <h2 className="u">
+            <a href="#">Uber</a>
+          </h2>
+          <p className="hh">
+            <a href="#">Visit Help Center</a>
+          </p>
         </div>
         <div className="footer-links">
           <div className="footer-column">
             <h3>Company</h3>
             <div className="cpm">
-              <a>About us</a>
-              <a className="st">Our offerings</a>
-              <a>Newsroom</a>
-              <a>Investors</a>
-              <a>Blog</a>
-              <a>Careers</a>
-              <a>Uber AI</a>
-              <a>Gift cards</a>
+              <a href="#">About us</a>
+              <a href="#" className="st">
+                Our offerings
+              </a>
+              <a href="#">Newsroom</a>
+              <a href="#">Investors</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
+              <a href="#">Uber AI</a>
+              <a href="#">Gift cards</a>
             </div>
           </div>
           <div className="footer-column">
             <h3>Products</h3>
             <div className="pro">
-              <a>Ride</a>
-              <a>Drive</a>
-              <a>Deliver</a>
-              <a>Eat</a>
-              <a>Uber for Business</a>
-              <a>Uber Freight</a>
+              <a href="#">Ride</a>
+              <a href="#">Drive</a>
+              <a href="#">Deliver</a>
+              <a href="#">Eat</a>
+              <a href="#">Uber for Business</a>
+              <a href="#">Uber Freight</a>
             </div>
           </div>
           <div className="footer-column">
             <h3>Global citizenship</h3>
             <div className="gc">
-              <a>Safety</a>
-              <a>Diversity and Inclusion</a>
-              <a>Sustainability</a>
+              <a href="#">Safety</a>
+              <a href="#">Diversity and Inclusion</a>
+              <a href="#">Sustainability</a>
             </div>
           </div>
           <div className="footer-column">
             <h3>Travel</h3>
             <div className="t">
-              <a>Reserve</a>
-              <a>Airports</a>
-              <a>Cities</a>
+              <a href="#">Reserve</a>
+              <a href="#">Airports</a>
+              <a href="#">Cities</a>
             </div>
           </div>
         </div>
         <div className="footer-social">
-          <a>
-            <FaFacebookF />{" "}
+          <a href="#">
+            <FaFacebookF />
           </a>
-          <a>
-            <FaTwitter />{" "}
+          <a href="#">
+            <FaTwitter />
           </a>
-          <a>
-            <FaYoutube />{" "}
+          <a href="#">
+            <FaYoutube />
           </a>
-          <a>
-            <FaLinkedinIn />{" "}
+          <a href="#">
+            <FaLinkedinIn />
           </a>
-          <a>
-            <FaInstagram />{" "}
+          <a href="#">
+            <FaInstagram />
           </a>
           <div className="footer-location">
             <span>
-              <FaGlobe /> English
+              <a href="#">
+                <FaGlobe /> English
+              </a>
             </span>
             <span>
-              <FaMapMarkerAlt /> Dehradun
+              <a href="#">
+                <FaMapMarkerAlt /> Dehradun
+              </a>
             </span>
           </div>
         </div>
         <div className="footer-apps">
-          <a>
+          <a href="#">
             <FaGooglePlay /> Get it on Google Play
           </a>
-          <a>
+          <a href="#">
             <FaApple /> Download on the App Store
           </a>
         </div>
         <div className="footer-bottom">
           <span>© 2024 Uber Technologies Inc.</span>
           <div>
-            <a>Privacy</a>
-            <a>Accessibility</a>
-            <a>Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Terms</a>
           </div>
         </div>
       </div>
