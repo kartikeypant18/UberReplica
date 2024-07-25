@@ -41,7 +41,7 @@ npm install
 npm run dev
 
 ### Contact
-Kartikey Pant - kartike121
+Kartikey Pant - kartike121@gmail.com
 
 Project Link: https://github.com/kartikeypant18/UberReplica
 
