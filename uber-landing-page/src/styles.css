@@ -1,4 +1,3 @@
-
 .hero-section {
   background: url('https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_3185,h_3185/v1646156550/assets/2a/12cdd8-9ec4-4308-a37e-fd14df09bc28/original/Uber_Hero.png') no-repeat center center;
   background-size: cover;
@@ -12,45 +11,42 @@
   color: white;
   font-weight: 700;
   font-size: 2.5rem;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .hero-section p {
   color: white;
   font-size: 1.25rem;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 .hero-section .form-group {
   width: 100%;
-  max-width: 500px; 
+  max-width: 500px;
 }
 
 .hero-section .form-control {
-  border-radius: 0.5rem; 
+  border-radius: 0.5rem;
   height: 3rem;
   width: 60%;
 }
 
 .hero-section button {
   height: 3rem;
-  border-radius: 0.5rem; 
-  width: 20%; 
-  
+  border-radius: 0.5rem;
+  width: 20%;
 }
-
 
 .text-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .text-container h1,
 .text-container p {
   margin: 0;
 }
-/* styles.css */
 
 .footer {
   background-color: #000;
@@ -172,4 +168,68 @@
   margin-right: 15px;
   text-decoration: none;
   font-size: 14px;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.qr-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Add this line */
+}
+
+.qr-box:hover {
+  transform: scale(1.05);
+}
+
+.qr-box img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer; /* Add this line */
+}
+
+.text-container {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.text-container p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-container span {
+  font-size: 14px;
+  color: #888;
+}
+
+.arrow-container {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.arrow-container:hover {
+  transform: translateX(5px);
+}
+
+.text-container .arrow {
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer; /* Add this line */
 }

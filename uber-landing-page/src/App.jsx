@@ -6,6 +6,7 @@ import DriveSection from "./components/DriveSection";
 import Footer from "./components/Footer";
 import BusinessSection from "./components/BusinessSection";
 import EarnSection from "./components/EarnSection";
+import QrComponent from "./components/QrComponent";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <DriveSection />
       <BusinessSection />
       <EarnSection />
-
+      <QrComponent />
       <Footer />
     </>
   );
