@@ -30,9 +30,7 @@ To get a local copy of the project up and running, follow these steps:
 
 ### Clone the Repository
 
-```bash
-[git clone https://github.com/yourusername/uber-clone.git
-cd uber-clone](https://github.com/kartikeypant18/UberReplica.git)
+git clone https://github.com/kartikeypant18/UberReplica.git
 
 ### Install Dependencies
 
